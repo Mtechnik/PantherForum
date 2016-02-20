@@ -60,6 +60,6 @@ Modifications are a difficult thing to achieve, because quite often they require
  - Note: Two ways you can do this, is by pressing Win Button + R, or goto the selected folder where you want to download the source files too, after, you will "HOLD SHIFT + Right-Click" and select "Open Command Window Here"
  - Last step, you will then type in the Command Window: 
  
-    'composer create-project mtechnik/panther . --stability=dev'
+    `composer create-project mtechnik/panther . --stability=dev`
 
  - Enjoy!
