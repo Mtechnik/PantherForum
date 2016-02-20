@@ -59,8 +59,7 @@ Modifications are a difficult thing to achieve, because quite often they require
  - Next open your Command screen by pressing Win Button + R and type in: "cmd"
  - Note: Two ways you can do this, is by pressing Win Button + R, or goto the selected folder where you want to download the source files too, after, you will "HOLD SHIFT + Right-Click" and select "Open Command Window Here"
  - Last step, you will then type in the Command Window: 
-    ```
-    #!HTML
-    composer create-project Mtechnik/PantherForum . --stability=stable
-    ```
+ 
+    'composer create-project mtechnik/panther . --stability=dev'
+
  - Enjoy!
