@@ -55,9 +55,8 @@ Modifications are a difficult thing to achieve, because quite often they require
  - Contributor: http://LetsCode.Online <Mtechnik: mtechniklol@gmail.com>
  
  ## GETTING STARTED!
- - To get started, be sure to start with Composer. Once you have downloaded the repository, you will then, need to first, install composer
- - Next open your Command screen by pressing Win Button + R and type in: "cmd"
- - Note: Two ways you can do this, is by pressing Win Button + R, or goto the selected folder where you want to download the source files too, after, you will "HOLD SHIFT + Right-Click" and select "Open Command Window Here"
+ - To get started, be sure to start with Composer. Once you have downloaded the repository, you will then, need to first, install composer from https://getcomposer.org
+ - Note: Two ways you can do this, is by pressing `Win Button + R`, or goto the selected folder where you want to download the source files too, after, you will `HOLD SHIFT + Right-Click` and select <b>Open Command Window Here</b>
  - Last step, you will then type in the Command Window: 
  
     `composer create-project mtechnik/panther . --stability=dev`
