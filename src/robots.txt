@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /ad
+Disallow: /at
+Disallow: /d
+Disallow: /c
+Disallow: /e
+Disallow: /l
+Disallow: /m
+Disallow: /p
+Disallow: /re
+Disallow: /s
+Disallow: /u
+Disallow: /*pid=
+Allow: /
+Crawl-Delay: 5

@@ -1,0 +1,38 @@
+body {
+    margin: 20px auto;
+}
+.database-error,
+.server-error {
+    font-family: arial;
+    margin: auto;
+    max-width: 1000px;
+}
+.database-error h3,
+.server-error h3 {
+    background: #242424;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+.database-error p,
+.server-error p {
+    margin: 20px 5px;
+    padding: 0;
+}
+.database-error p a,
+.server-error p a {
+    background: #242424;
+    border-radius: 3px;
+    color: white;
+    font-size: 14px;
+    padding: 8px 5px;
+    text-decoration: none;
+}
+.database-error p a:hover,
+.server-error p a:hover {
+    background: #424242;
+}
+.database-error a.returnindex,
+.server-error a.returnindex {
+    margin-right: 10px;
+}

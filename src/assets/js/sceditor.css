@@ -1,0 +1,138 @@
+/*! SCEditor | (C) 2011-2013, Sam Clarke | sceditor.com/license */
+/* Modified for Panther */
+
+html, body, p, code:before, table {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #333;
+}
+
+html {
+  height: 100%;
+
+  /* Needed for iOS scrolling bug fix */
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  word-wrap: break-word;
+
+  /* Needed for iOS scrolling bug fix */
+  overflow: auto;
+}
+
+ul {
+  list-style: disc;
+  padding: 4px 13px 4px 30px;
+}
+
+ol {
+  list-style: decimal;
+  padding: 4px 13px 4px 30px;
+}
+
+ul, ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+li {
+  padding: 0 3px;
+}
+
+a:link img, a:visited img {
+  border-color: #22538a;
+}
+
+a:hover img, a:active img, a:focus img {
+  border-color: #1a466e;
+}
+
+table, td {
+  border: 1px dotted #000;
+  empty-cells: show;
+}
+
+code {
+  font-family: consolas, monaco, "bitstream vera sans mono", "courier new", courier, monospace;
+  font-size: 1em;
+  background: #333;
+  color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  margin: 0.75em 1em;
+  padding: 0;
+  overflow: hidden;
+  direction: ltr;
+  text-align: left;
+  padding: 0.75em;
+  white-space: pre;
+}
+
+.ie6 code, .ie7 code {margin-top: 0;}
+
+code:before, code {
+  display: block;
+  text-align: left;
+}
+
+p {
+  padding: 7px 0;
+}
+
+blockquote cite {
+  font-style: normal;
+  display: block;
+  padding: 0.75em 0 0.75em 0;
+  font-weight: bold;
+  line-height: 1.462em;
+}
+blockquote cite:after {
+  content: ' wrote:'
+}
+
+blockquote {
+  background: #f8f9f0;
+  border-color: #7aadbd;
+  color: #566579;
+  border-style: solid;
+  border-width: 1px 1px 1px 3px;
+  margin: 0;
+  padding: 0 0 0.75em 0.75em;
+  overflow: hidden;
+  margin-bottom: 0.75em;
+}
+
+
+div { min-height: 1.25em; }
+
+h1, h2, h3, h4, h5, h6 { padding: 0; margin: 0; }
+
+hr {
+  background: #b9c5ce;
+  border: 0;
+  height: 2px;
+}
+
+h5 {
+  font-size: 1.231em;
+  font-weight: bold;
+  padding: 7px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a, a:link, a:visited {
+  color: #2365B0;
+}
+
+a:hover, a:active, a:focus {
+  color: #1a466e;
+}

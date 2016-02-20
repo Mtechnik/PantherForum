@@ -1,0 +1,48 @@
+<IfModule mod_rewrite.c>
+
+	# MultiViews INTERFERS WITH PROPER REWRITING.
+	Options -MultiViews
+
+	RewriteEngine On
+
+	# UNCOMMENT AND PROPERLY SET THE RewriteBase IF THE REWRITE RULES ARE NOT WORKING PROPERLY.
+	#RewriteBase /
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule . include/rewrite.php [L]
+    
+    # ----------------------------------------------------------------------
+    # DISABLE DIRECTORY BROWSING.
+    # ----------------------------------------------------------------------
+    <IfModule mod_autoindex.c>
+        Options -Indexes
+    </IfModule>
+
+    # ----------------------------------------------------------------------
+    # UTF-8 ENCODING.
+    # ----------------------------------------------------------------------
+
+    # USE UTF-8 ENCODING FOR ANYTHING SERVED text/plain OR text/html.
+    AddDefaultCharset utf-8
+
+    # FORCE UTF-8 FOR A NUMBER OF FILE FORMATS.
+    AddCharset utf-8 .html .css .js .xml .json .rss
+
+    # ----------------------------------------------------------------------
+    # BETTER WEBSITE EXPERIENCE FOR INTERNET EXPLORER USERS.
+    # ----------------------------------------------------------------------
+    <IfModule mod_setenvif.c>
+        <IfModule mod_headers.c>
+            BrowserMatch MSIE ie
+            Header set X-UA-Compatible "IE=Edge,chrome=1" env=ie
+        </IfModule>
+    </IfModule>
+
+    <IfModule mod_headers.c>
+        # BECAUSE X-UA-Compatible ISN'T SENT TO NON-IE (TO SAVE HEADER BYTES), WE NEED TO INFORM PROXIES THAT CONTENT CHANGES BASED ON UA.
+        Header append Vary User-Agent
+        # CACHE CONTROL IS SET ONLY IF mod_headers IS ENABLED, SO THAT'S UNNECESSARY TO DECLARE.
+    </IfModule>
+
+</IfModule>

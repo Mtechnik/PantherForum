@@ -1,0 +1,33 @@
+{
+    "name": "patherforum/pantherforum",
+    "description": "Panther is a fast, yet very secure forum application written in PHP and MySQL. Panther has a large variety of features that are very well optimized, we use intensive caching to speed up your forum and deliver the best possible speed, quality and security for all your users.",
+    "type": "project",
+    "keywords": ["forum", "discussion"],
+    "homepage": "https://www.pantherforum.org/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chrisopher Marshall",
+            "email": "chris@pantherforum.org",
+            "homepage": "https://www.pantherforum.org"
+		}
+	],
+	"support": {
+    "support": {
+        "issues": "https://github.com/flarum/core/issues",
+        "source": "https://gitlab.com/PantherForum/Panther",
+		"contributor": "https://bitbucket.org/Mtechnik/panther",
+        "docs": "https://www.pantherforum.org/docs/"
+    },
+    "require": {
+		"php": ">=5.3.3,<7.0",
+        "composer/composer": "*",
+        "Mtechnik/panther":  "*",
+		"adobe/brackets": "1.6"
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable"
+	}
+}
