@@ -19,7 +19,6 @@
         "docs": "https://www.pantherforum.org/docs/"
     },
     "require": {
-        "composer/composer": "1.0.0-alpha11",
-		"adobe/brackets": "1.6"
+        "composer/composer": "1.0.0-alpha11"
     }
 }
