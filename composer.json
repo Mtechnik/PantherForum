@@ -19,14 +19,12 @@
         "docs": "https://www.pantherforum.org/docs/"
     },
     "require": {
-		"php": ">=5.3.3,<7.0",
-        "composer/composer": "*",
-        "Mtechnik/panther":  "*",
+		"php": ">=5.2.5",
+        "composer/composer": "1.0.0-alpha11",
+        "Mtechnik/panther":  "1.1.1",
 		"adobe/brackets": "1.6"
     },
     "config": {
         "preferred-install": "dist"
-    },
-    "minimum-stability": "stable"
-	
+    }
 }
