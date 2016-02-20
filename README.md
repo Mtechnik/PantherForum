@@ -19,11 +19,11 @@ Modifications are a difficult thing to achieve, because quite often they require
 - Make use of a PHP accelerator. We recommend [Zend Opcache](https://pecl.php.net/package/ZendOpcache) + [Alternative PHP Cache (APC)](https://pecl.php.net/package/APC). It is a very good combination.
 
 ## Links
- - Homepage: https://www.pantherforum.org/
- - Forums: https://www.pantherforum.org/forums/
- - Documentation: https://www.pantherforum.org/docs/
- - Development: https://gitlab.com/PantherForum/Panther
- - Contributor: http://LetsCode.Online <Mtechnik: mtechniklol@gmail.com>
+ - Homepage: "https://www.pantherforum.org"
+ - Forums: "https://www.pantherforum.org/forums/"
+ - Documentation: "https://www.pantherforum.org/docs/"
+ - Development: "https://gitlab.com/PantherForum/Panther"
+ - Contributor: "http://LetsCode.Online" <Mtechnik: mtechniklol@gmail.com>
  
  ## GETTING STARTED!
  - To get started, be sure to start with Composer. Once you have downloaded the repository, you will then, need to first, install composer
