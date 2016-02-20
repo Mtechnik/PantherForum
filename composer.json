@@ -1,6 +1,6 @@
 {
-    "name": "Mtechnik/PantherForum",
-    "description": "Panther is a fast, yet very secure forum application written in PHP and MySQL. Panther has a large variety of features that are very well optimized, we use intensive caching to speed up your forum and deliver the best possible speed, quality and security for all your users.",
+    "name": "mtechnik/pantherforum",
+    "description": "PantherForums, is a fast, yet very secure forum web application written in PHP and MySQL",
     "type": "project",
     "keywords": ["forum", "discussion"],
     "homepage": "https://www.pantherforum.org/",
@@ -19,12 +19,7 @@
         "docs": "https://www.pantherforum.org/docs/"
     },
     "require": {
-		"php": ">=5.2.5",
         "composer/composer": "1.0.0-alpha11",
-        "Mtechnik/panther":  "1.1.1",
 		"adobe/brackets": "1.6"
-    },
-    "config": {
-        "preferred-install": "dist"
     }
 }
