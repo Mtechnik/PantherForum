@@ -1,5 +1,5 @@
-## $this=> "PantherForums"
-**I**s a fast, yet very secure forum application written in PHP and MySQL. Panther has a large variety of features that are very well optimized, we use intensive caching to speed up your forum and deliver the best possible speed, quality and security for all your users.
+## $this=> "ReadMe.md"
+**PantherForums**, is a fast, yet very secure forum application written in PHP and MySQL. Panther has a large variety of features that are very well optimized, we use intensive caching to speed up your forum and deliver the best possible speed, quality and security for all your users.
 
 ## License
 Panther is an open source forum application released under the [GNU General Public License (GPL-3.0), Version 3, 29 June 2007](http://opensource.org/licenses/GPL-3.0). It is free to download and use and will remain so. 
